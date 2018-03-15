@@ -17,8 +17,8 @@ tags:
 - Autos
 - Automobile
 - API LIfeycle
-created: "2018-03-11"
-modified: "2018-03-11"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/uber/master/_listings/uber/apis.yaml
 specificationVersion: "0.14"
 apis:
