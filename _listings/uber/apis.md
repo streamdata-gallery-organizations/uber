@@ -5,12 +5,12 @@ description: The Uber API exposes a set of RESTful endpoints that enable your ap
   to GET information such as time and price estimates about the products offered in
   a given location, request rides on behalf of authenticated users, and create ride
   reminders for users to take a ride at a specific time in the future.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uber-logo.png
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11277-uber.jpg
 x-kinRank: "9"
-x-alexaRank: "0"
+x-alexaRank: "1255"
 tags: Uber
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/uber/master/_listings/uber/apis.md
 specificationVersion: "0.14"
 apis:
@@ -19,7 +19,7 @@ apis:
   description: The Products endpoint returns information about the Uber products offered
     at a given location. The response includes the display name and other details
     about each product, and lists the products in the proper display order.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uber-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11277-uber.jpg
   humanURL: https://uber.com
   baseURL: https://api.uber.com//v1//products
   tags: Transportation
@@ -37,7 +37,7 @@ apis:
     currency code for situations requiring currency conversion. When surge is active
     for a particular product, its surge_multiplier will be greater than 1, but the
     price estimate already factors in this multiplier.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uber-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11277-uber.jpg
   humanURL: https://uber.com
   baseURL: https://api.uber.com//v1//estimates/price
   tags: Transportation
@@ -52,7 +52,7 @@ apis:
     a given location, with the responses expressed as integers in seconds. We recommend
     that this endpoint be called every minute to provide the most accurate, up-to-date
     ETAs.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uber-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11277-uber.jpg
   humanURL: https://uber.com
   baseURL: https://api.uber.com//v1//estimates/time
   tags: Transportation
@@ -65,7 +65,7 @@ apis:
   x-api-slug: uber
   description: The User Profile endpoint returns information about the Uber user that
     has authorized with the application.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uber-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11277-uber.jpg
   humanURL: https://uber.com
   baseURL: https://api.uber.com//v1//me
   tags: Transportation
@@ -82,7 +82,7 @@ apis:
     were requested.<br><br>The history array in the response will have a maximum length
     based on the limit parameter. The response value count may exceed limit, therefore
     subsequent API requests may be necessary.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uber-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11277-uber.jpg
   humanURL: https://uber.com
   baseURL: https://api.uber.com//v1//history
   tags: Transportation
@@ -97,7 +97,7 @@ apis:
     to GET information such as time and price estimates about the products offered
     in a given location, request rides on behalf of authenticated users, and create
     ride reminders for users to take a ride at a specific time in the future.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uber-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11277-uber.jpg
   humanURL: https://uber.com
   baseURL: https://api.uber.com//v1
   tags: Uber
@@ -117,16 +117,24 @@ x-common:
   url: https://medium.com/feed/@UberPubPolicy
 - type: x-blog-rss
   url: https://devblog.uber.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/uber
 - type: x-developer
   url: https://developer.uber.com/
+- type: x-email
+  url: change-dr@uber.com
 - type: x-github
   url: https://github.com/uber
+- type: x-linkedin
+  url: https://www.linkedin.com/company/uber-com/
 - type: x-transparency-report
   url: https://transparencyreport.uber.com/
 - type: x-twitter
   url: https://twitter.com/uber_api
 - type: x-twitter
   url: https://twitter.com/UberPubPolicy
+- type: x-twitter
+  url: https://twitter.com/Uber
 - type: x-website
   url: https://uber.com
 - type: x-website
