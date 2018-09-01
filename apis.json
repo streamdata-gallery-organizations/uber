@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Uber",
+	"description": "This is a repository of uber APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/uber.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://uber.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Uber",
+			"x-api-slug": "uber",
+			"description": "The Uber API exposes a set of RESTful endpoints that enable your application to GET information such as time and price estimates about the products offered in a given location, request rides on behalf of authenticated users, and create ride reminders for users to take a ride at a specific time in the future.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11277-uber.jpg",
+			"humanURL": "https://uber.com",
+			"baseURL": "https://api.uber.com//v1",
+			"tags": "Uber",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/uber/master/_listings/uber/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Uber",
+	"include": [
+		{
+			"name": "Uber",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/uber/master/_listings/uber/apis.yaml"
+		}
+	]
+}
